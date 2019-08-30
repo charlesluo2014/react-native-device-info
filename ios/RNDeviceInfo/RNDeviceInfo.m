@@ -116,7 +116,8 @@ RCT_EXPORT_MODULE();
     return @"not available";
 #else
     WKWebView* webView = [[WKWebView alloc] initWithFrame:CGRectZero];
-    return [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
+    //return [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
+    return @"not available";
 #endif
 }
 
