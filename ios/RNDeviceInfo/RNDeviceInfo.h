@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 #import <sys/utsname.h>
 #import <React/RCTBridgeModule.h>
 #import <React/RCTEventEmitter.h>

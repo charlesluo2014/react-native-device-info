@@ -115,7 +115,7 @@ RCT_EXPORT_MODULE();
 #if TARGET_OS_TV
     return @"not available";
 #else
-    UIWebView* webView = [[UIWebView alloc] initWithFrame:CGRectZero];
+    WKWebView* webView = [[WKWebView alloc] initWithFrame:CGRectZero];
     return [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
 #endif
 }
